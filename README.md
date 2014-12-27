@@ -9,6 +9,11 @@ The contents of this repository on its own are not sufficient to teach
 yourself the Python programming language and it is assumed that consumers of 
 this material will also be in attendance at the event.
 
+## Attending
+
+If you're attending this event, please read the
+[prerequisites][./prerequisites.md] file before hand and fulfill them.
+
 ## Contributing
 
 If you find a problemm with something in the repository follow these steps:

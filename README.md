@@ -12,7 +12,7 @@ this material will also be in attendance at the event.
 ## Attending
 
 If you're attending this event, please read the
-[prerequisites][./prerequisites.md] file before hand and fulfill them.
+[prerequisites](./prerequisites.md) file before hand and fulfill them.
 
 ## Contributing
 

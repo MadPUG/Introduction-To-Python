@@ -45,9 +45,11 @@ eight = 4 * 2
 print('eight =', eight)
 
 sixteen = 4 ** 2
+# Here we use ** to perform exponentiation
 print('sixteen =', sixteen)
 
 remainder = 3 % 2
+# The % in this instance is referred to as modulo
 print('The remainder of 3 divided by 2 is:', remainder)
 
 # Don't you wish you had this while you were in grade school? But wait! It

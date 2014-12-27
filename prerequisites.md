@@ -1,8 +1,13 @@
 # Prerequisites for attending the event
 
-1. A laptop that you can bring with you to the event.
+1. (*Optional*) A laptop that you can bring with you to the event.
 
   - You will probably want to bring a power cable to be safe.
+
+  - If you cannot bring a laptop you can still attend. The purpose of the
+   laptop is to be able to run the code provided on this website at the same
+   time in sync with the presentation. It is not absolutely required but it
+   will be beneficial.
 
 1. A copy of Python installed from [the Python website][downloads].
 

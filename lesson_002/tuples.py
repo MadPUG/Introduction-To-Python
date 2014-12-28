@@ -33,4 +33,5 @@ print((10,))
 # You can mix types inside a tuple too (although it isn't recommended)
 mixed_types = (1, 2.0, "string")
 
-# Tuples behave a lot like our next topic: lists.
+# Tuples behave a lot like our next topic: lists. And we'll be revisiting
+# tuples and strings shortly.

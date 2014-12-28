@@ -17,6 +17,9 @@
 
   - Please do this as soon as possible.
 
+  - Learn how to run python from a command line (e.g.,
+   [Running a Python Program on Windows][win-cmd])
+
   - If you have trouble with this please email Ian. His email is available
    [here][sigmavirus24].
 
@@ -32,3 +35,4 @@
 [Linux]: https://www.python.org/downloads/release/python-279/
 [releases]: https://github.com/MadPUG/Introduction-To-Python/releases
 [sigmavirus24]: https://github.com/sigmavirus24
+[win-cmd]: https://docs.python.org/2/faq/windows.html

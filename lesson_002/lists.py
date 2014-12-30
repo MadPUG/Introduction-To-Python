@@ -104,3 +104,6 @@ print('sorted list:', new_list)
 # And finally let's reverse it
 new_list.reverse()
 print('reversed list:', new_list)
+
+# There are more awesome things you'll learn about lists soon, but you'll have
+# to be patient.

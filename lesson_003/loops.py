@@ -41,6 +41,9 @@ print('cubed_list:', cubed_list)
 # because we never call .append on a list. This is also the more common way of
 # creating a new list from an old. It isn't always practical though.
 
+# At this point we'll be moving on with the presentation. Read on for extra
+# information about loops.
+
 # We can also loop through code so long as a condition is true. These are
 # called while loops.
 my_counter = 0
@@ -59,6 +62,9 @@ for counter in range(0, 101):
         print('counter:', counter)
 
 # Notice this output is virtually the same as the while loop above.
+# range is a function that is available on every python. It returns a list of
+# numbers based on what you pass as arguments. Above we get [0, 1, 2, 3, ...,
+# 97, 98, 99, 100]. So we
 
 # FOOTNOTES
 # [1]: Basically there are a kind of object in Python called "iterables". What

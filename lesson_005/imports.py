@@ -1,4 +1,3 @@
-from __future__ import print_function  # Ignore this line until next month
 # Section 1 of Lesson 5
 
 # Up until now, everything we've seen in python just exists. You also may have
@@ -65,6 +64,19 @@ pprint({
 # I can't think of any other very generic ones so feel free to use the rest of
 # tonight to ask me about anything we've done thus far and for recommendations
 # about modules.
+
+# So far every lesson has had "from __future__ import print_function" at the
+# top of each file. If you recall, I suggested you install Python 2.7 before
+# the first meeting. Python 2.5, 2.6, and 2.7 all provide the __future__
+# module to retrieve planned features for future versions of Python. We've
+# been using the enhanced and easier to understand print_function from the
+# future versions of Python. You'll notice we don't have it at the top of this
+# file. If we did the following would cause a SyntaxError:
+
+print "Hello from the print statement"
+
+# In Python 2 "print" is a statement, which means it is similar to "if",
+# "else", "for", "while", and other similar words.
 
 # Extra credit
 

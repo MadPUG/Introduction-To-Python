@@ -50,11 +50,11 @@ class Adventurer(object):
 # __init__ is short for initialize. With that in mind, let's make our intrepid
 # adventurer.
 
-thor = Adventurer('Thor', 1000, 100, 25)
+narcissus = Adventurer('Narcissus', 1000, 100, 25)
 
-# Now let's look at what we can do with thor.
+# Now let's look at what we can do with narcissus.
 
-print("Our adventurer's name: {0}".format(thor.name))
+print("Our adventurer's name: {0}".format(narcissus.name))
 
 # This is awesome, but we should probably have a good way of formatting our
 # adventurer's information. So let's take a shot at making the class again.
@@ -84,7 +84,7 @@ class Adventurer(object):
 
 # Now let's use it
 
-thor = Adventurer('Thor', 1000, 100, 25)
-print(thor.format())
+narcissus = Adventurer('Narcissus', 1000, 100, 25)
+print(narcissus.format())
 
-# So in this case, "thor" is "self" inside of "format".
+# So in this case, "narcissus" is "self" inside of "format".

@@ -61,19 +61,21 @@ print("Our adventurer's name: {0}".format(narcissus.name))
 
 
 class Adventurer(object):
-    def __init__(self, name, health, experience, level):
+    def __init__(self, name, health, experience, level, adventurer_type):
         self.name = name
         self.health = health
         self.experience = experience
         self.level = level
+        self.adventurer_type = adventurer_type
 
     def format(self):
         format_str = ("Our adventurer's name: {0}\n"
                       "         Their health: {1}\n"
                       "     Their experience: {2}\n"
-                      "          Their level: {3}\n")
+                      "          Their level: {3}\n"
+                      "           Their type: {4}\n")
         return format_str.format(self.name, self.health, self.experience,
-                                 self.level)
+                                 self.level, self.adventurer_type)
 
 # You'll now notice a pattern forming. __init__ and format both take a
 # parameter that we're not explicitly passing in, "self". One of Python's
@@ -84,7 +86,15 @@ class Adventurer(object):
 
 # Now let's use it
 
-narcissus = Adventurer('Narcissus', 1000, 100, 25)
+narcissus = Adventurer('Narcissus', 1000, 100, 25, 'Bard')
 print(narcissus.format())
 
 # So in this case, "narcissus" is "self" inside of "format".
+
+# We can also reuse our Adventurer class to create classes for specific
+# adventurer types.
+
+
+class Bard(Adventurer):
+    def __init__(self, name, health, experience, level):
+        super(Bard, self).__init__(name, health, experience, level, 'Bard')

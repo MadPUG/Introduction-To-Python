@@ -1,3 +1,13 @@
+# Table of Contents
+
+- `integers.py`
+- `floats.py`
+- `strings.py`
+- `tuples.py`
+- `lists.py`
+- `dictionaries.py`
+- `booleans.py`
+
 # Structure of Lesson 2
 
 ## Number types

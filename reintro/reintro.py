@@ -48,23 +48,23 @@ alpha_ordering['z'] = 'How did I get here?'
 # We can update the dictionary because it is mutable.
 
 # You can merge any dictionary into another using the update method.
-my_dict = {}
-my_dict.update({'a': 'b'})
-my_dict.update({'b': 'c'})
-print('my_dict:', my_dict)
+words_collection = {}
+words_collection.update({'a': 'b'})
+words_collection.update({'b': 'c'})
+print('words_collection:', words_collection)
 
 # You may be wondering, however, what happens when you call update with two
 # dictionaries that have the same keys. A dictionary cannot have the same key
 # repeated, we learned that earlier. Let's see what happens:
-my_dict.update({'a': 'd'})
-print("my_dict['a']:", my_dict['a'])
+words_collection.update({'a': 'd'})
+print("words_collection['a']:", words_collection['a'])
 
 # We can also list all key-value pairs in a dictionary
-print("my_dict.items():", my_dict.items())
+print("words_collection.items():", words_collection.items())
 # We can retrieve only the keys
-print("my_dict.keys():", my_dict.keys())
+print("words_collection.keys():", words_collection.keys())
 # We can retrieve only the values
-print("my_dict.values():", my_dict.values())
+print("words_collection.values():", words_collection.values())
 
 # # Lists
 
